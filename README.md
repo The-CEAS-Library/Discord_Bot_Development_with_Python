@@ -1,4 +1,4 @@
-# Discord_Bot_Development_with_Python
+# Discord Bot Development with Python
 One-off workshop for developing bot users in Discord using Python.
 
 ### Discord Bot Development with Python
