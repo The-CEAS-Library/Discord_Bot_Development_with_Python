@@ -35,6 +35,6 @@ One-off workshop for developing bot users in Discord using Python.
 
 Please click **'Open in Colab'** button below to launch the notebook in Google Colab for an interactive environment in the web browser.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CEASLIBRARY/Discord_Bot_Development_with_Python.git/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-CEAS-Library/Discord_Bot_Development_with_Python.git/main)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/The-CEAS-Library/Discord_Bot_Development_with_Python)
