@@ -33,7 +33,7 @@ async def help(ctx, cmd):
     elif cmd == 'hello':
         await ctx.respond('replies \'hello\' to your command')
     elif cmd == 'ping':
-        await ctx.respond('replies \'Pong!\' to your commaond')
+        await ctx.respond('replies \'Pong!\' to your command')
     else:
         await ctx.respond('command does not exist')
 
