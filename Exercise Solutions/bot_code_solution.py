@@ -25,6 +25,14 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.respond('Hello!')
 
+# aboutme - will return the name and the pfp image of the user in an embed
+@bot.slash_command(guild_ids=guild_ids)
+async def aboutme(ctx):
+    print(ctx)
+    embed=discord.Embed(title=ctx.author.name)
+    embed.set_thumbnail(url=ctx.author.avatar.url)
+    await ctx.respond(embed=embed)
+
 # help -- will direct message the user a help message.
 @bot.slash_command(guild_ids=guild_ids)
 async def help(ctx, cmd):
@@ -34,6 +42,8 @@ async def help(ctx, cmd):
         await ctx.respond('replies \'hello\' to your command')
     elif cmd == 'ping':
         await ctx.respond('replies \'Pong!\' to your command')
+    elif cmd == 'aboutme':
+        await ctx.respond('shows info about the user')
     else:
         await ctx.respond('command does not exist')
 
