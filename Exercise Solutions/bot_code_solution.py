@@ -28,7 +28,6 @@ async def hello(ctx):
 # aboutme - will return the name and the pfp image of the user in an embed
 @bot.slash_command(guild_ids=guild_ids)
 async def aboutme(ctx):
-    print(ctx)
     embed=discord.Embed(title=ctx.author.name)
     embed.set_thumbnail(url=ctx.author.avatar.url)
     await ctx.respond(embed=embed)
