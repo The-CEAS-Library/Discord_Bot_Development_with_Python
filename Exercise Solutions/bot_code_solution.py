@@ -23,7 +23,7 @@ async def ping(ctx):
 # hello - will return the string "Hello, user!" depending on user.
 @bot.slash_command(name="hello")
 async def hello(ctx):
-    await ctx.respond('Hello User!')
+    await ctx.respond('Hello ' + ctx.author.name+'!')
     
 
 #aboutme - will return the name and the pfp image of the user in an embed
